@@ -1,0 +1,31 @@
+.rd-navbar-center.rd-navbar-static .rd-navbar-top-panel .icon {
+  color: #0b2c61;
+}
+
+.navbar-icon{
+  width: 40px !important;
+  height: 40px !important;;
+  line-height: 40px !important;;
+  font-size: 18px !important;;
+}
+.text-subline {
+  background: none;
+}
+
+.left{float: left}
+.right{float: right}
+
+.margin-right-10{ margin-right: 10px}
+.margin-left-10{ margin-left: 10px}
+.margin-top-10{ margin-top: 10px}
+.margin-bottom-10{ margin-bottom: 10px}
+
+.margin-right-20{ margin-right: 20px}
+.margin-left-20{ margin-left: 20px}
+.margin-top-20{ margin-top: 20px}
+.margin-bottom-20{ margin-bottom: 20px}
+
+.margin-right-30{ margin-right: 30px}
+.margin-left-30{ margin-left: 30px}
+.margin-top-30{ margin-top: 30px}
+.margin-bottom-30{ margin-bottom: 30px}
