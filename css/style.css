@@ -299,7 +299,7 @@ th {
 @font-face {
 	font-family: 'Glyphicons Halflings';
 	src: url("../fonts/glyphicons-halflings-regular.eot");
-	src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+	src: url("../fonts/glyphicons-halflings-regular.eot") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
 .glyphicon {
@@ -1482,11 +1482,24 @@ hr {
 /** 1.4  Type */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	font-weight: 400;
 	line-height: 1.1;
 	color: #2d2e2e;
 }
+
+@font-face {
+	font-family: 'Albertus';
+	src: url('../fonts/Albertus-Medium.eot');
+	src: url('../fonts/Albertus-Medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Albertus-Medium.woff2') format('woff2'),
+	url('../fonts/Albertus-Medium.woff') format('woff'),
+	url('../fonts/Albertus-Medium.ttf') format('truetype'),
+	url('../fonts/Albertus-Medium.svg#Albertus-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
 
 h1 small,
 h1 .small, h2 small,
@@ -1570,8 +1583,22 @@ h6, .h6 {
 }
 
 p {
-	margin: 0 0 11px;
+    font-family: 'Cantarell', sans-serif;
+    margin: 0 0 11px;
 }
+
+@font-face {
+	font-family: 'Cantarell';
+	src: url('../fonts/Cantarell-Regular.eot');
+	src: url('../fonts/Cantarell-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Cantarell-Regular.woff2') format('woff2'),
+	url('../fonts/Cantarell-Regular.woff') format('woff'),
+	url('../fonts/Cantarell-Regular.ttf') format('truetype'),
+	url('../fonts/Cantarell-Regular.svg#Cantarell-Regular') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
 
 .lead {
 	margin-bottom: 22px;
@@ -10174,7 +10201,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 }
 
 .font-accent {
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 }
 
 h1, .h1 {
@@ -12823,8 +12850,8 @@ fieldset[disabled] .tags-list .btn-primary {
 /** 2.13 Font Awesome */
 @font-face {
 	font-family: 'FontAwesome';
-	src: url("../fonts/fontawesome-webfont.eot?v=4.5.0");
-	src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.5.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.5.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.5.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular") format("svg");
+	src: url("../fonts/fontawesome-webfont.eot");
+	src: url("../fonts/fontawesome-webfont.eot") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2") format("woff2"), url("../fonts/fontawesome-webfont.woff") format("woff"), url("../fonts/fontawesome-webfont.ttf") format("truetype"), url("../fonts/fontawesome-webfont.svg#fontawesomeregular") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -15551,7 +15578,7 @@ fieldset[disabled] .tags-list .btn-primary {
 @font-face {
 	font-family: "Flaticon";
 	src: url("../fonts/Flaticon.eot");
-	src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon.woff") format("woff"), url("../fonts/Flaticon.ttf") format("truetype"), url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	src: url("../fonts/Flaticon.eot") format("embedded-opentype"), url("../fonts/Flaticon.woff") format("woff"), url("../fonts/Flaticon.ttf") format("truetype"), url("../fonts/Flaticon.svg#Flaticon") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -16461,8 +16488,8 @@ fieldset[disabled] .tags-list .btn-primary {
 /** 2.15 Material Design Icons */
 @font-face {
 	font-family: "Material Design Icons";
-	src: url("../fonts/materialdesignicons-webfont.eot?v=1.4.57");
-	src: url("../fonts/materialdesignicons-webfont.eot?#iefix&v=1.4.57") format("embedded-opentype"), url("../fonts/materialdesignicons-webfont.woff2?v=1.4.57") format("woff2"), url("../fonts/materialdesignicons-webfont.woff?v=1.4.57") format("woff"), url("../fonts/materialdesignicons-webfont.ttf?v=1.4.57") format("truetype"), url("../fonts/materialdesignicons-webfont.svg?v=1.4.57#materialdesigniconsregular") format("svg");
+	src: url("../fonts/materialdesignicons-webfont.eot");
+	src: url("../fonts/materialdesignicons-webfont.eot") format("embedded-opentype"), url("../fonts/materialdesignicons-webfont.woff2") format("woff2"), url("../fonts/materialdesignicons-webfont.woff") format("woff"), url("../fonts/materialdesignicons-webfont.ttf") format("truetype"), url("../fonts/materialdesignicons-webfont.svg#materialdesigniconsregular") format("svg");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23514,7 +23541,7 @@ a.icon {
 	position: relative;
 	text-align: center;
 	line-height: 1.2;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	letter-spacing: 0.04em;
 }
 
@@ -24323,7 +24350,7 @@ html .group-bottom {
 	font-weight: 700;
 	font-style: italic;
 	color: #2d2e2e;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 }
 
 .quote-classic-boxed q:before, .quote-classic-boxed q:after {
@@ -30668,7 +30695,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 1.2;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 }
 
 .rd-navbar {
@@ -31497,7 +31524,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.2;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
@@ -32025,7 +32052,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 .rd-navbar-default.rd-navbar-static .rd-navbar-brand-title {
 	font-size: 18px;
 	line-height: 1.2;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	font-weight: 700;
 }
 
@@ -32034,7 +32061,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 	font-style: italic;
 	font-weight: 300;
 	color: #888888;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 }
 
 @media (min-width: 1800px) {
@@ -32172,7 +32199,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-cart a {
 	color: #888888;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	font-weight: 700;
 	font-size: 16px;
 }
@@ -32482,7 +32509,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-brand-title {
 	font-size: 20px;
 	line-height: 1.2;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-brand-slogan {
@@ -32490,7 +32517,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 	font-style: italic;
 	font-weight: 300;
 	color: #fff;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 }
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-brand .wrap {
@@ -32543,7 +32570,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 
 .rd-navbar-transparent.rd-navbar-static .rd-navbar-cart a {
 	color: #fff;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	font-weight: 700;
 }
 
@@ -32703,7 +32730,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 .rd-navbar-center.rd-navbar-static .rd-navbar-top-panel .rd-navbar-brand-title {
 	font-size: 24px;
 	line-height: 1.2;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	font-weight: 700;
 }
 
@@ -32712,7 +32739,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 	font-style: italic;
 	font-weight: 300;
 	color: #888888;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 }
 
 .rd-navbar-center.rd-navbar-static .rd-navbar-panel .rd-navbar-toggle, .rd-navbar-center.rd-navbar-static .form-search-wrap {
@@ -32747,7 +32774,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 
 .rd-navbar-center.rd-navbar-static .rd-navbar-cart a {
 	color: #888888;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	font-weight: 700;
 }
 
@@ -32881,7 +32908,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-brand-title {
 	font-size: 18px;
 	line-height: 1.2;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	font-weight: 700;
 }
 
@@ -32889,7 +32916,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 	font-size: 12px;
 	font-style: italic;
 	color: #888888;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 }
 
 @media (min-width: 1800px) {
@@ -33003,7 +33030,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-cart a {
 	color: #888888;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	font-weight: 700;
 }
 
@@ -33217,7 +33244,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 .search_title {
 	color: #b80924;
 	font-size: 18px;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	font-weight: 700;
 }
 
@@ -40449,7 +40476,7 @@ html:not(.lt-ie10) .not-animated {
 	font-weight: 700;
 	color: #b80924;
 	text-align: left;
-	font-family: "Merriweather", "Times New Roman", Times, serif;
+	font-family: 'Albertus';
 	text-overflow: ellipsis;
 	-webkit-transition: all .35s ease;
 	transition: all .35s ease;
