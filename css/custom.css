@@ -4,7 +4,9 @@ html {
 .rd-navbar-center.rd-navbar-static .rd-navbar-top-panel .icon {
   color: #0b2c61;
 }
-
+.rd-navbar-center.rd-navbar-static .rd-navbar-top-panel .icon:hover{
+    color: #fff !important;
+}
 .navbar-icon{
   width: 40px !important;
   height: 40px !important;;
@@ -18,6 +20,15 @@ html {
 .post-news-body h4{
     line-height: 0.5;
 }
+.breadcrumb-classic .list-inline-dashed > li:last-child,
+.breadcrumb-modern .list-inline-dashed > li:last-child {
+    color: #fff;
+}
+
+.post-news-body h6 {
+    color: #b80924;
+}
+
 .text-subline {
   background: none;
 }
