@@ -28,7 +28,9 @@ html {
 .post-news-body h6 {
     color: #b80924;
 }
-
+.testimonial{
+    background-image: url(../images/testimonial.jpg);
+}
 .text-subline {
   background: none;
 }
